@@ -1,0 +1,17 @@
+body {
+  display: flex;  
+}
+#BookContainer {
+    margin-top: 10px;
+    border: solid;   
+    width: 200px;
+    border-radius: 10px;
+}
+
+#bookForm  {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 300px; 
+}
+
