@@ -7,8 +7,8 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="ReadBooks">
-        <h1>New Library</h1>
+    <div class="Read Books">
+        <h1>Read Books</h1>
         <form id="bookForm">
             <label for="title">Title:</label>
             <input type="text" id="title" name="title">
@@ -21,29 +21,31 @@
         </div>
     </div>
 
-    <div class="NewBooks">
-        <h1>New Library</h1>
+    <div class="New Books">
+        <h1>New Books</h1>
         <form id="bookForm">
-            <label for="title">Title:</label>
-            <input type="text" id="title" name="title">
-            <label for="author">Author:</label>
-            <input type="text" id="author" name="author">
-            <button type="button" onclick="addBookToLibrary()">Add Book</button>
+            <label for="titlenew2">Titlenew:</label>
+            <input type="text" id="titlenew2" name="titlenew">
+            <label for="authornew">Authornew:</label>
+            <input type="text" id="authornew2" name="authornew">
+            <label for="page">page:</label>
+            <input type="number" id="page2" name="page">
+            <label for="description">Description:</label>
+            <input type="text" id="description2" name="description">
+            <button type="button" onclick="addNewBook()">Add New Book</button>
         </form>
-        <div id="BookContainer">
+        <div id="newbookContainer">
       
         </div>
     </div>
     
 
-    <!--
+    
 
-    <div id="inputContainer">
-      
+    <div id="inputContainer">  
     </div>   
--->    
-
-    <!-- <button type="button" onclick="addAnewBook()">Add New Book</button> -->
+    <button type="button" onclick="addAnewBook()">Add New Book</button>
     <script src="script.js"></script>
+    <script src="newBOOK.JS"></script>
 </body>
 </html>
